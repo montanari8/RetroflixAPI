@@ -46,5 +46,4 @@ public class PessoaFisicaController {
 	public ResponseEntity<PessoaFisica> atualizarPessoaFisica(@RequestBody PessoaFisica pessoaFisica){
 		return ResponseEntity.ok(iPessoaFisicaService.atualizarPessoaFisica(pessoaFisica));
 	}
-	
 }
